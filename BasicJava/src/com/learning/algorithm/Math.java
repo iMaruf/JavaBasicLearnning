@@ -30,5 +30,11 @@ public class Math {
 		return div;
 
 	}
+	
+	public static double modulusFirstToSecond(double num1, double num2){
+		double mod;
+		mod = num1%num2;
+		return mod;
+	}
 
 }

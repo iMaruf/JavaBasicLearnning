@@ -24,12 +24,14 @@ public class ConsoleCalculator2 {
 		double sub = Math.subtractSecondFormFirst(a, b);
 		double mul = Math.multiplyTwoNumbers(a, b);
 		double div = Math.divideFirstBySecond(a, b);
+		double mod = Math.modulusFirstToSecond(a, b);
 		
 		
 		System.out.println("The sum of " + a + " and " + b + " is : " + sum);
 		System.out.println("The subtraction of " + a + " from " + b + " is : " + sub);
 		System.out.println("The multiplication of " + a + " and " + b + " is : " + mul);
 		System.out.println("The divition of " + a + " by " + b + " is : " + div);
+		System.out.println("The modulus of " + a + " to " + b + " is: " +mod);
 
 		
 		
