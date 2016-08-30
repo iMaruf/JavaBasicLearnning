@@ -4,53 +4,33 @@ public class ConsoleCalculator {
 
 	
 	public static void main(String[] args) {
-		//Declare the required variables
-		double x;
-		double y;
-		double result=0;
 		
-		//Assign
-		x=30.00;
-		y=6.00;
+		double x = 55.00;
+		double y = 99.00;
 		
-		//processing
-		result = x+y;
 		
-		//output
-		System.out.println("The sum of "+ x + "and" + y + "is :" + result);
+		Math cMath = new Math();
 		
-		// Subtraction
-
-		  // Assign
-		  x = 113.00;
-		  y = 13.00;
-
-		  // Processing
-		  result = x - y;
-
-		  // output
-		  System.out.println("The subtraton " + y + " from " + x + " is :" + result);
-
-		  // Multiplication
-		  // Assign
-		  x = 100.00;
-		  y = 13.00;
-
-		  // Processing
-		  result = x * y;
-
-		  // output
-		  System.out.println("The multiplication of " + x + " and " + y + " is :" + result);
-
-		  
-		  // Division
-		  x = 100.00;
-		  y = 10.00;
-
-		  // Processing
-		  result = x / y;
-
-		  // output
-		  System.out.println("The devision " + x + " by " + y + " is :" + result);
-		 }
+		double sum = cMath.addTwoNumbers(x, y);
+		
+		System.out.println("The sum of " + x + " and " + y + " is: " + sum);
+		
+		
+		
+		double sub = cMath.subtractSecondFormFirst(x, y);
+		
+		System.out.println("The subtarction of " + x + " form " + y + " is: " + sub);
+		
+		
+		
+		double multi = cMath.multiplyTwoNumbers(x, y);
+		
+		System.out.println("The multiplication of " + x + " and " + y + " is: " + multi);
+		
+		
+		
+		double div = cMath.divideFirstBySecond(x, y);
+		
+		System.out.println("The divition of " + x + " by " + y + " is: " +div);
      }
+}
