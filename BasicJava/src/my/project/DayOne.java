@@ -1,19 +1,25 @@
 package my.project;
 
+import java.util.Scanner;
+
 public class DayOne {
 
 	public static void main(String[] args) {
 		
-		String myName;
-		myName = new String(" Aariz ");
+		Scanner ab = new Scanner(System.in);
 		
-		System.out.print("Previous method");
-		System.out.println(myName);
+		println("May I know your name please? \n ");
+		
+		String yourName;
+		yourName = ab.nextLine();
+		
+		System.out.print("Previous method ");
+		System.out.println(yourName);
 		
 		println("This is new method: :)");
-		print(myName);
+		print(yourName);
 		
-		println("\n\n The number of characters in your name is : " + myName.length());
+		println("\n\n The number of characters in your name is : " + yourName.length());
 	}
 	static void println(Object anyObject){
 		System.out.println(anyObject);
