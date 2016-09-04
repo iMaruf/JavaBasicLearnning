@@ -12,6 +12,8 @@ public class DayOne {
 		
 		println("This is new method: :)");
 		print(myName);
+		
+		println("\n\n The number of characters in your name is : " + myName.length());
 	}
 	static void println(Object anyObject){
 		System.out.println(anyObject);
