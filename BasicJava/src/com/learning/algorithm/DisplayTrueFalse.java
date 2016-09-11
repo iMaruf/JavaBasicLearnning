@@ -13,7 +13,7 @@ public class DisplayTrueFalse {
 	
 	}
 	static public boolean process(int firstValue, int secondValue){
-		boolean answer = firstValue>secondValue;
-		return answer;
+		boolean result = firstValue>secondValue;
+		return result;
 	}
 }
