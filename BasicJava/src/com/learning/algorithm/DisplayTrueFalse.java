@@ -1,18 +1,18 @@
 package com.learning.algorithm;
 
-public class Task {
+public class DisplayTrueFalse {
 
 	
 	public static void main(String[] args) {
 		
-		int[] cards = {1,3,5,7,9,11,33,55,777};
+		int[] array = {1,3,5,7,9,11,33,55,777};
 		
-		boolean stat=pro(cards[7], cards[3]);
+		boolean stat=process(array[7], array[8]);
 		
 		System.out.println(stat);
 	
 	}
-	static public boolean pro(int firstValue, int secondValue){
+	static public boolean process(int firstValue, int secondValue){
 		boolean answer = firstValue>secondValue;
 		return answer;
 	}
